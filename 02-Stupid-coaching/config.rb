@@ -1,3 +1,4 @@
+#modifie l'emplacement des fichiers par defaut de rails.
 APP_ROOT = File.dirname(__FILE__)
 
 configure do

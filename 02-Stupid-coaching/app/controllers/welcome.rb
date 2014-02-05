@@ -12,4 +12,7 @@ post '/coach' do
   puts "self instance variable from POST '/coach' route handler: #{self.instance_variables}"
   
   "Implement your coach response ! params => #{params.inspect}"
+  @coach_message = params[:what]
+  erb :answer
 end
+
